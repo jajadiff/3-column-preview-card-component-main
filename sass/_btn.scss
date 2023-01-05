@@ -1,0 +1,86 @@
+/* btn sedans*/
+.btn{
+    position: absolute;
+    bottom: 3rem;
+    left: 3rem;
+    &__item{      
+            text-decoration: none;
+            background-color: $color-white;
+            border-radius: 25px;
+            width: 9rem;
+            height: 3rem;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: $color-orange;
+            font-family: 'Lexend Deca', sans-serif;
+        }
+    
+    
+}
+
+.btn__item:hover{
+    transition-delay: 0.1s;
+    background-color: $color-orange;
+    color: $color-white;
+    border: 2px solid $color-white;
+ }
+
+/* btn suv*/
+
+.btn2{
+    position: absolute;
+    bottom: 3rem;
+    left: 3rem;
+    &__item{      
+            text-decoration: none;
+            background-color: $color-white;
+            border-radius: 25px;
+            width: 9rem;
+            height: 3rem;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: $color-cyan;
+            font-family: 'Lexend Deca', sans-serif;
+        }
+
+    
+}
+
+.btn2__item:hover{
+    transition-delay: 0.1s;
+    background-color: $color-cyan;
+    color: $color-white;
+    border: 2px solid $color-white;
+ }
+
+
+ /*btn luxury*/
+
+.btn3{
+    position: absolute;
+    bottom: 3rem;
+    left: 3rem;
+    &__item{      
+            text-decoration: none;
+            background-color: $color-white;
+            border-radius: 25px;
+            width: 9rem;
+            height: 3rem;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: $color-dark;
+            font-family: 'Lexend Deca', sans-serif;
+        }
+
+    
+}
+
+.btn3__item:hover{
+    transition-delay: 0.1s;
+    background-color: $color-dark;
+    color: $color-white;
+    border: 2px solid $color-white;
+ }
